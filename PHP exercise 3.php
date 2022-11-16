@@ -1,33 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PHP Exercise </title>
-</head>
-<body>
-<h1>Exercise 3</h1>
+
 <?php
 $num = 8;
-echo "Value is now $num.<br/>";  
+echo "Value is now $num.\n";  
  
 $num += 2;
-echo "Add 2. Value is now $num. <br/>";  
+echo "Add 2. Value is now $num.\n";  
  
 $num -= 4;
-echo "Subtract 4. Value is now $num. <br/>";  
+echo "Subtract 4. Value is now $num.\n";  
  
 $num *= 5;
-echo "Multiply by 5. Value is now $num. <br/>";  
+echo "Multiply by 5. Value is now $num.\n";  
  
 $num /= 3;
-echo "Divide by 3. Value is now $num. <br/>";  
+echo "Divide by 3. Value is now $num. \n";  
  
 $num++;
-echo "Increment value by one. Value is now $num.<br/>";  
+echo "Increment value by one. Value is now $num.\n";  
  
 $num--;
 echo "Decrement value by one. Value is now $num.";
 ?>
-</body>
-</html>
